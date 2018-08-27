@@ -8,6 +8,6 @@ Javascript
 </script>
 ```
 
-    **today is Sun Jan 01 2018 01:23:45**
+**today is Sun Jan 01 2018 01:23:45**
   
 
