@@ -1,0 +1,8 @@
+class_vid_0.cpp: In constructor ‘Dog::Dog(std::__cxx11::string, double, double, std::__cxx11::string)’:
+class_vid_0.cpp:104:74: error: expected ‘{’ before ‘;’ token
+          double weight, std::string sound) : Animal(name, height, weight);
+                                                                          ^
+class_vid_0.cpp: At global scope:
+class_vid_0.cpp:105:1: error: expected unqualified-id before ‘{’ token
+ {
+ ^
