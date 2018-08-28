@@ -16,4 +16,7 @@ Monday August 27, 2018
 
 * download and install quartus prime and modelsim
 
+**FP**
+
+* read Chapters 1 - 8
 
