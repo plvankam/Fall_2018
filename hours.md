@@ -12,6 +12,8 @@ Sunday August 26, 2018
 Monday August 27, 2018 
 ==============================
 
+**Digital Design**
+
 * download and install quartus prime and modelsim
 
 
