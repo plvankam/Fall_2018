@@ -8,6 +8,10 @@ Sunday August 26, 2018
 **Web Development**
 
 * Chapter 1 *Introduction to Dynamic Web Content*
-  * pages 1 - 
+
+Monday August 27, 2018 
+==============================
+
+* download and install quartus prime and modelsim
 
 
