@@ -20,3 +20,16 @@ Monday August 27, 2018
 
 * read Chapters 1 - 8
 
+Tuesday August 28, 2018 
+==============================
+
+**FP**
+
+* Read Chapter 9
+
+**C++**
+
+* built the Warrior game 
+
+
+
