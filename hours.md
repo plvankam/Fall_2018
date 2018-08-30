@@ -31,5 +31,15 @@ Tuesday August 28, 2018
 
 * built the Warrior game 
 
+Wednesday August 29, 2018 
+==============================
+
+**Web Development**
+
+* w3schools.com ==> js
+
+**Digital Design**
+
+* reviewed flip flops and latches
 
 
