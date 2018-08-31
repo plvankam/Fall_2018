@@ -43,3 +43,11 @@ Wednesday August 29, 2018
 * reviewed flip flops and latches
 
 
+Thursday August 30, 2018 
+==============================
+
+**FP**
+
+* www.allaboutscala.com 
+
+
