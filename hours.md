@@ -50,4 +50,27 @@ Thursday August 30, 2018
 
 * www.allaboutscala.com 
 
+**Object Oriented**
+
+* Abstract
+* poly 
+* friend 
+* override
+
+**Digital Design**
+
+* D Latches (w/, w/out Enable)
+
+
+
+Friday August 31, 2018 
+==============================
+
+**FP**
+
+* read till chapter 14 
+  - functors
+  - map
+  - lambda 
+  - etc
 
