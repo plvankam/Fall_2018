@@ -74,3 +74,13 @@ Friday August 31, 2018
   - lambda 
   - etc
 
+
+
+Sunday September 1, 2018 
+==============================
+
+**FP**
+
+* Chapter 1,2 ScalaByExample
+
+
