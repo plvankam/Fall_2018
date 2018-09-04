@@ -1,5 +1,5 @@
 
-<hr>
+
 **Note 1: Higher-Order Functions are a great FP language feature**
 
 If you’re not familiar with the term Higher-Order Function (HOF), it
@@ -21,7 +21,7 @@ use recursion, the need for recursion is a by-product of my FP definition.
 
 **The Terminology Barrier**
 
-* Things that can be mapped over shall be called ... Functor.
+* Things that can be mapped over shall be called ... **Functor**.
 
 * **Combinator** 
 
@@ -36,9 +36,60 @@ use recursion, the need for recursion is a by-product of my FP definition.
     function A function that takes other functions as
     parameters, or whose result is a function
 
-* lambda 
+* **Lambda**
     Another word for “anonymous function.”
 
 <hr>
 
+**Call-By-Value vs Call-By-Name**
 
+* Scala uses call-by-value by default, but it switches to call-by-name evaluation if the
+parameter type is preceded by =>
+
+```scala
+    scala> def loop: Int = loop
+    loop: Int
+    scala> def first(x: Int, y: Int) = x
+    first: (Int,Int)Int
+    scala> def constOne(x: Int, y: => Int) = 1
+    constOne: (Int,=> Int)Int
+    scala> constOne(1, loop)
+    unnamed0: Int = 1
+    scala> constOne(loop, 2) // gives an infinite loop.
+```
+
+**Nested Functions**
+
+* The  functional  programming  style  encourages  the  construction  of  many  small
+helper functions.
+
+``` scala
+def sqrt(x: Double) = 
+{
+    def sqrtIter(guess: Double, x: Double : Double = 
+    {
+        if(isGoodEnough(guess,x)) guess
+        else sqrtIter(improve(guess,x),x)
+    }
+    def isGoodEnough(guess: Double, x: Double) = 
+    {
+        abs(square(guess) - x) < 0.001         
+    }
+    sqrtIter(1.0,x)
+}
+```
+
+**Tail Recursion**
+
+```scala
+// tail recursive b/c iterative function 
+// calls are executed in a constant space 
+def gcd(a: Int, b: Int) : Int = if (0 == b) a else gcd(b,a%b)
+```
+
+```scala
+// not tail-recursive because the space needed
+// to perform calculations is proportional 
+// to input parameter 
+def factorial(n: Int) : Int = if(0 == n) 1 else n * factorial(n - 1)
+```

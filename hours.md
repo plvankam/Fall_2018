@@ -83,4 +83,26 @@ Sunday September 1, 2018
 
 * Chapter 1,2 ScalaByExample
 
+**Web Development**
+
+* Chapter 2 O'Reilly Learning PHP, MySQL & JavaScript_ 
+  - server side
+  - LAMP setup 
+* w3school Array
+  - methods
+  - sort
+  - iteration
+
+
+Monday September 2, 2018 
+==============================
+
+**FP**
+
+* Chapter 3,4 *Scala By Example*
+
+**Web Development**
+
+* continued on in w3schools
+
 
