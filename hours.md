@@ -103,6 +103,21 @@ Monday September 2, 2018
 
 **Web Development**
 
-* continued on in w3schools
+* continued on in w3schools finishing up js
 
 
+Monday September 2, 2018 
+==============================
+
+**FP**
+
+* started learn you a haskell tutorial
+* started Real World Haskell (O'Reilly)
+
+**Web Developmen**
+
+* started jQuery tut (w3)
+
+**Object Oriented**
+
+* derek banas c++ video 12 
