@@ -106,7 +106,7 @@ Monday September 2, 2018
 * continued on in w3schools finishing up js
 
 
-Monday September 2, 2018 
+Tuesday September 3, 2018 
 ==============================
 
 **FP**
@@ -121,3 +121,70 @@ Monday September 2, 2018
 **Object Oriented**
 
 * derek banas c++ video 12 
+
+Wednesday September 4, 2018 
+==============================
+
+**FP**
+
+* LYSH => Chapters 2, 3
+
+* Derek Banas - Haskell
+
+
+Friday September 6, 2018 
+==============================
+
+**FP**
+
+* Learn you a Haskell 
+* video on monads (still don't quite get it)
+
+**Math**
+
+* 3brown1blue -> video quarternions 
+* Quanta Magazine -> C. Furey 
+  - division algebras
+  - octonions 
+
+
+Monday September 10, 2018 
+==============================
+
+**FP**
+
+* yet another haskell tut 
+* LYAH -> Recursion
+
+**Object Oriented**
+
+* c++ tut advanced functions 
+
+
+Tuesday September 11, 2018 
+==============================
+
+**Modern Physics**
+
+* TTM -> video lecture 1 : 34:00
+
+
+Wednesday September 12, 2018 
+==============================
+
+**FP**
+
+* LYSM -> Recursion 
+
+**Modern Physics**
+
+* TTM -> video lecture 1 : 1:02:00
+
+Friday September 14, 2018 
+==============================
+
+**FP**
+
+* LYAH -> curried funcs, higher order functions
+Maps and Filters, Lambdas, Folds and horses 
+* Functional Python Programming -> packt book
