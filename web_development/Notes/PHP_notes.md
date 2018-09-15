@@ -104,4 +104,64 @@ Operator Description
 > \__NAMESPACE__ The name of the current namespace (case-sensitive). This constant is defined at compile time. (Added in
 > PHP 5.3.0.)
 
+**Precedence of PHP operators** (high to low)
+
+    Operator(s) Type
+    () Parentheses
+    ++ -- Increment/decrement
+    ! Logical
+    * / % Arithmetic
+    + - . Arithmetic and string
+    << >> Bitwise
+    < <= > >= <> Comparison
+    == != === !== Comparison
+    & Bitwise (and references)
+    ^ Bitwise
+    | Bitwise
+    && Logical
+    || Logical
+    ? : Ternary
+    = += -= *= /= .= %= &= != ^= <<= >>= Assignment
+    and Logical
+    xor Logical
+    or Logical
+
+
+**Operator associativity**
+
+    CLONE NEW Create a new object None
+    < <= >= == != === !== <> Comparison None
+    ! Logical NOT Right
+    ~ Bitwise NOT Right
+    ++ -- Increment and decrement Right
+    (int) Cast to an integer Right
+    (double) (float) (real) Cast to a floating-point number Right
+    (string) Cast to a string Right
+    (array) Cast to an array Right
+    (object) Cast to an object Right
+    @ Inhibit error reporting Right
+    = += -= *= /= Assignment Right
+    .= %= &= |= ^= <<= >>= Assignment Right
+    ubtraction and negation Left
+    * Multiplication Left
+    / Division Left
+    % Modulus Left
+    . String concatenation Left
+    << >> & ^ | Bitwise Left
+    ?: Ternary Left
+    || && and or xor Logical Left
+    , Separator Left
+
+
+
+
+**PHP's cast types**
+
+    (int) (integer) Cast to an integer by dropping the decimal portion
+    (bool) (boolean) Cast to a Boolean
+    (float) (double) (real) Cast to a floating-point number
+    (string) Cast to a string
+    (array) Cast to an array
+    (object) Cast to an object
+
 

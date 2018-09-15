@@ -193,4 +193,14 @@ Maps and Filters, Lambdas, Folds and horses
 
 * PHP Chpt 3 - O'Reilly Learning PHP, MySQL & JavaScript_  
 
+**Modern Physics**
+
 * TTM -> video lecture 1 : 1:34:00
+
+
+Saturday September 15, 2018 
+==============================
+
+**Modern Physics**
+
+* TTM -> video lecture 2
