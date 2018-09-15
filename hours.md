@@ -188,3 +188,9 @@ Friday September 14, 2018
 * LYAH -> curried funcs, higher order functions
 Maps and Filters, Lambdas, Folds and horses 
 * Functional Python Programming -> packt book
+
+**Web Development**
+
+* PHP Chpt 3 - O'Reilly Learning PHP, MySQL & JavaScript_  
+
+* TTM -> video lecture 1 : 1:34:00
