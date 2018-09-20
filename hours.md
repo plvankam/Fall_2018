@@ -216,3 +216,8 @@ Wednesday September 19, 2018
 **TTM**
 
 * TTM -> video lecture 3
+
+
+Thursday September 20, 2018 
+==============================
+
