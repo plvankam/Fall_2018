@@ -203,4 +203,16 @@ Saturday September 15, 2018
 
 **Modern Physics**
 
-* TTM -> video lecture 2
+* TTM -> video lecture 2 : 32:00
+
+Wednesday September 19, 2018 
+==============================
+
+**FP**
+
+* LYAH
+* functional Python
+
+**TTM**
+
+* TTM -> video lecture 3
