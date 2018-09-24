@@ -225,5 +225,15 @@ Thursday September 20, 2018
 
 * Data Structures and Algorithm Analysis in C++, 3rd edition => Chpt 3 , page 143
 
+**TTM**
 
+* TTM -> video lecture 3 17:00 
+
+
+Friday September 21, 2018 
+==============================
+
+**Data Structures and Algorithms**
+
+* Data Structures and Algorithm Analysis in C++, 3rd edition => Chpt 3 , page 156
 
