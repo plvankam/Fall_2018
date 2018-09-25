@@ -228,3 +228,14 @@ Thursday September 20, 2018
 **TTM**
 
 * TTM -> video lecture 3 17:00 
+
+
+Sunday September 23, 2018 
+==============================
+
+**Data Science**
+
+* 3Blue1Brown: What is a Neural Network
+* Data Science from Scratch: read Chpt. 1 
+* 3Blue1Brown: Gradient Descent, how neural networks learn
+
