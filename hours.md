@@ -237,3 +237,14 @@ Friday September 21, 2018
 
 * Data Structures and Algorithm Analysis in C++, 3rd edition => Chpt 3 , page 156
 
+
+Monday September 24, 2018 
+==============================
+
+**Data Structures and Algorithms**
+
+* Data Structures and Algorithm Analysis in C++, 3rd edition => Chpt 4 , page 187
+
+**FP**
+
+* FP for Python 
