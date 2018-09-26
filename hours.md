@@ -248,3 +248,12 @@ Monday September 24, 2018
 **FP**
 
 * FP for Python 
+
+**Data Science**
+
+* edx -> intro to R
+* anaconda updates 
+* 3brown1blue -> 4 videos on deep learning 
+
+
+
