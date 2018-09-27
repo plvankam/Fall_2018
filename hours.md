@@ -256,4 +256,11 @@ Monday September 24, 2018
 * 3brown1blue -> 4 videos on deep learning 
 
 
+Thursday September 27, 2018
+=============================
+
+**FP**
+
+* scala-exercises.org/scala_tutorial/functional\_loops 
+
 
