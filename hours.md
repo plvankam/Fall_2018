@@ -262,7 +262,7 @@ Thursday September 27, 2018
 **FP**
 
 * scala-exercises.org/scala\_tutorial/lexical\_scopes
-* Programming in Scala: page 
+* Programming in Scala: page 51
 
 
 **Data Structures and Algorithms**
