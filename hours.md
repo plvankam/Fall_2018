@@ -261,6 +261,10 @@ Thursday September 27, 2018
 
 **FP**
 
-* scala-exercises.org/scala_tutorial/functional\_loops 
+* scala-exercises.org/scala\_tutorial/lexical\_scopes
+* Programming in Scala: page 
 
 
+**Data Structures and Algorithms**
+
+* Data Structures and Algorithm Analysis in C++, 3rd edition => Chpt 4 , page 201
