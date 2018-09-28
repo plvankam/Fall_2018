@@ -230,6 +230,13 @@ Thursday September 20, 2018
 * TTM -> video lecture 3 17:00 
 
 
+Friday September 21, 2018 
+==============================
+
+**Data Structures and Algorithms**
+
+* Data Structures and Algorithm Analysis in C++, 3rd edition => Chpt 3 , page 156
+
 Sunday September 23, 2018 
 ==============================
 
@@ -238,4 +245,25 @@ Sunday September 23, 2018
 * 3Blue1Brown: What is a Neural Network
 * Data Science from Scratch: read Chpt. 1 
 * 3Blue1Brown: Gradient Descent, how neural networks learn
+
+
+Tuesday September 25, 2018 
+==============================
+
+**Data Science** 
+
+* Data Sciene from Scratch : page 49
+
+
+Wednesday September 26, 2018 
+==============================
+
+**Data Science**
+
+* Data Science from Scratch : page 50
+
+**FP**
+
+* LTSH : 
+* installed sbt for scala
 
