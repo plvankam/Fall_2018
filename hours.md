@@ -237,6 +237,7 @@ Friday September 21, 2018
 
 * Data Structures and Algorithm Analysis in C++, 3rd edition => Chpt 3 , page 156
 
+
 Sunday September 23, 2018 
 ==============================
 
@@ -245,6 +246,24 @@ Sunday September 23, 2018
 * 3Blue1Brown: What is a Neural Network
 * Data Science from Scratch: read Chpt. 1 
 * 3Blue1Brown: Gradient Descent, how neural networks learn
+
+
+Monday September 24, 2018 
+==============================
+
+**Data Structures and Algorithms**
+
+* Data Structures and Algorithm Analysis in C++, 3rd edition => Chpt 4 , page 187
+
+**FP**
+
+* FP for Python 
+
+**Data Science**
+
+* edx -> intro to R
+* anaconda updates 
+* 3brown1blue -> 4 videos on deep learning 
 
 
 Tuesday September 25, 2018 
@@ -267,3 +286,20 @@ Wednesday September 26, 2018
 * LTSH : 
 * installed sbt for scala
 
+=======
+
+
+Thursday September 27, 2018
+=============================
+
+**FP**
+
+* scala-exercises.org/scala\_tutorial/lexical\_scopes
+* Programming in Scala: page 51
+
+
+**Data Structures and Algorithms**
+
+* Data Structures and Algorithm Analysis in C++, 3rd edition => Chpt 4 , page 201
+* edx: python for data science:   
+* edx: statistics and probability with python:  
