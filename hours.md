@@ -303,3 +303,12 @@ Thursday September 27, 2018
 * Data Structures and Algorithm Analysis in C++, 3rd edition => Chpt 4 , page 201
 * edx: python for data science:   
 * edx: statistics and probability with python:  
+
+
+Friday September 28, 2018
+=============================
+
+**FP**
+
+* coursera: scala  Video Lecture 1.2 
+* [Odersky: Working Hard to Keep it Simple](Thursday://www.youtube.com/watch?v=3jg1AheF4n0&list=PL2N4GEaXeHh0byFvLKVnb9rFFEJtqXHb1)
