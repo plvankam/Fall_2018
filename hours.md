@@ -268,3 +268,14 @@ Thursday September 27, 2018
 **Data Structures and Algorithms**
 
 * Data Structures and Algorithm Analysis in C++, 3rd edition => Chpt 4 , page 201
+
+
+Friday September 28, 2018
+=============================
+
+**Data Structures and Algorithms**
+
+* [problem solving with algorithms and data structures](http://interactivepython.org/runestone/static/pythonds/Introduction/ObjectOrientedProgramminginPythonDefiningClasses.html) : listing 14
+
+
+
