@@ -72,8 +72,6 @@ Friday August 31, 2018
   - functors
   - map
   - lambda 
-  - etc
-
 
 
 Sunday September 1, 2018 
@@ -128,7 +126,6 @@ Wednesday September 4, 2018
 **FP**
 
 * LYSH => Chapters 2, 3
-
 * Derek Banas - Haskell
 
 
@@ -238,6 +235,16 @@ Friday September 21, 2018
 * Data Structures and Algorithm Analysis in C++, 3rd edition => Chpt 3 , page 156
 
 
+Sunday September 23, 2018 
+==============================
+
+**Data Science**
+
+* 3Blue1Brown: What is a Neural Network
+* Data Science from Scratch: read Chpt. 1 
+* 3Blue1Brown: Gradient Descent, how neural networks learn
+
+
 Monday September 24, 2018 
 ==============================
 
@@ -256,6 +263,29 @@ Monday September 24, 2018
 * 3brown1blue -> 4 videos on deep learning 
 
 
+Tuesday September 25, 2018 
+==============================
+
+**Data Science** 
+
+* Data Sciene from Scratch : page 49
+
+
+Wednesday September 26, 2018 
+==============================
+
+**Data Science**
+
+* Data Science from Scratch : page 50
+
+**FP**
+
+* LTSH : 
+* installed sbt for scala
+
+=======
+
+
 Thursday September 27, 2018
 =============================
 
@@ -268,6 +298,8 @@ Thursday September 27, 2018
 **Data Structures and Algorithms**
 
 * Data Structures and Algorithm Analysis in C++, 3rd edition => Chpt 4 , page 201
+* edx: python for data science:   
+* edx: statistics and probability with python:  
 
 
 Friday September 28, 2018
@@ -277,5 +309,16 @@ Friday September 28, 2018
 
 * [problem solving with algorithms and data structures](http://interactivepython.org/runestone/static/pythonds/Introduction/ObjectOrientedProgramminginPythonDefiningClasses.html) : listing 14
 
+**FP**
 
+* coursera: scala  Video Lecture 1.2 
+* [Odersky: Working Hard to Keep it Simple](Thursday://www.youtube.com/watch?v=3jg1AheF4n0&list=PL2N4GEaXeHh0byFvLKVnb9rFFEJtqXHb1)
+
+
+Monday October 1, 2018
+=============================
+
+**FP**
+
+* Programming in Scala: page 65 
 
