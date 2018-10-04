@@ -312,3 +312,12 @@ Friday September 28, 2018
 
 * coursera: scala  Video Lecture 1.2 
 * [Odersky: Working Hard to Keep it Simple](Thursday://www.youtube.com/watch?v=3jg1AheF4n0&list=PL2N4GEaXeHh0byFvLKVnb9rFFEJtqXHb1)
+
+
+Wednesday Octobber , 2018
+=============================
+
+**FP**
+
+* coursera: Scala : End Week 1, Tail Recursion
+
