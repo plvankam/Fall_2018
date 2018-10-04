@@ -322,3 +322,18 @@ Monday October 1, 2018
 
 * Programming in Scala: page 65 
 
+Tuesday October 2, 2018
+=============================
+
+**Data Science**
+
+* edx : Jupyter notebooks and unix cmds 
+
+
+Wednesday October 3, 2018
+=============================
+
+**Math**
+
+* TheTrevTutor: Discrete Math 2: Video 1 : 14:18
+
