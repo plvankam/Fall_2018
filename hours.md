@@ -337,3 +337,13 @@ Wednesday October 3, 2018
 
 * TheTrevTutor: Discrete Math 2: Video 1 : 14:18
 
+
+Thursday October 4, 2018
+=============================
+
+**FP**
+
+* Programming in Scala: page 83
+* Install scalac and scala for cmd line (windows vm)
+
+
