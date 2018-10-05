@@ -72,8 +72,6 @@ Friday August 31, 2018
   - functors
   - map
   - lambda 
-  - etc
-
 
 
 Sunday September 1, 2018 
@@ -128,7 +126,6 @@ Wednesday September 4, 2018
 **FP**
 
 * LYSH => Chapters 2, 3
-
 * Derek Banas - Haskell
 
 
@@ -308,16 +305,36 @@ Thursday September 27, 2018
 Friday September 28, 2018
 =============================
 
+**Data Structures and Algorithms**
+
+* [problem solving with algorithms and data structures](http://interactivepython.org/runestone/static/pythonds/Introduction/ObjectOrientedProgramminginPythonDefiningClasses.html) : listing 14
+
 **FP**
 
 * coursera: scala  Video Lecture 1.2 
 * [Odersky: Working Hard to Keep it Simple](Thursday://www.youtube.com/watch?v=3jg1AheF4n0&list=PL2N4GEaXeHh0byFvLKVnb9rFFEJtqXHb1)
 
 
-Wednesday Octobber , 2018
+Monday October 1, 2018
 =============================
 
 **FP**
 
 * coursera: Scala : End Week 1, Tail Recursion
+* Programming in Scala: page 65 
+
+Tuesday October 2, 2018
+=============================
+
+**Data Science**
+
+* edx : Jupyter notebooks and unix cmds 
+
+
+Wednesday October 3, 2018
+=============================
+
+**Math**
+
+* TheTrevTutor: Discrete Math 2: Video 1 : 14:18
 
