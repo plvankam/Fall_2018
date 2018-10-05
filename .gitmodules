@@ -1,3 +1,6 @@
 [submodule "fp/coursera_scala/coursera-scala"]
 	path = fp/coursera_scala/coursera-scala
 	url = https://github.com/tonyskn/coursera-scala
+[submodule "fp/coursera_scala/coursera-scala-specialization"]
+	path = fp/coursera_scala/coursera-scala-specialization
+	url = https://github.com/xiaoyunyang/coursera-scala-specialization
