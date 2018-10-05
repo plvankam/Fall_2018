@@ -1,0 +1,3 @@
+[submodule "fp/coursera_scala/coursera-scala"]
+	path = fp/coursera_scala/coursera-scala
+	url = https://github.com/tonyskn/coursera-scala
