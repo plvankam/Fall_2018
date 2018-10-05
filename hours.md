@@ -338,3 +338,15 @@ Wednesday October 3, 2018
 
 * TheTrevTutor: Discrete Math 2: Video 1 : 14:18
 
+
+
+Thursdsay October 4, 2018
+=============================
+
+**FP**
+
+* coursera: END week 1 : start assignment 
+
+**Data Science**
+
+* numpy : ndarrays
