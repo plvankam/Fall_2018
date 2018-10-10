@@ -351,3 +351,11 @@ Thursdsay October 4, 2018
 **Data Science**
 
 * edx : numpy and ndarrays
+
+Tuesday October 9, 2018
+=============================
+
+**FP**
+
+* Programming in Scala: page 83
+
