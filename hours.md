@@ -351,3 +351,20 @@ Thursdsay October 4, 2018
 **Data Science**
 
 * edx : numpy and ndarrays
+
+
+Friday October 5, 2018
+=============================
+
+**FP**
+
+* Programming in Scala: page 86
+
+
+Tuesday October 9, 2018
+=============================
+
+**FP**
+
+* Programming in Scala: Review up to page 83
+* coursera: higher order functions 
