@@ -386,4 +386,4 @@ Thursday October 11, 2018
 
 **Object Oriented**
 
-* [c++, data science and python tutorials](https://thispointer.com/c-interview-questions/) : Memory MGMT
+* [c++, data science and python tutorials](https://thispointer.com/c-interview-questions/) : Overload new and delete 
