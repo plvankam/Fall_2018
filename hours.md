@@ -368,3 +368,11 @@ Tuesday October 9, 2018
 
 * Programming in Scala: Review up to page 83
 * coursera: higher order functions 
+* Programming in Scala: page 83
+
+
+Wednesday October 10, 2018
+=============================
+
+
+
