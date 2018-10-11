@@ -371,8 +371,14 @@ Tuesday October 9, 2018
 * Programming in Scala: page 83
 
 
-Wednesday October 10, 2018
+Thursday October 11, 2018
 =============================
 
+**FP**
 
+* Programming in Scala: page 88
+ 
 
+**Data Structures and Algorithms**
+
+* [problem solving with algorithms and data structures](http://interactivepython.org/runestone/static/pythonds/Introduction/ObjectOrientedProgramminginPythonDefiningClasses.html) : listing 14
