@@ -382,3 +382,8 @@ Thursday October 11, 2018
 **Data Structures and Algorithms**
 
 * [problem solving with algorithms and data structures](http://interactivepython.org/runestone/static/pythonds/Introduction/ObjectOrientedProgramminginPythonDefiningClasses.html) : listing 14
+
+
+**Object Oriented**
+
+* [c++, data science and python tutorials](https://thispointer.com/c-interview-questions/) : Memory MGMT
