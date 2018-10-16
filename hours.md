@@ -387,3 +387,22 @@ Thursday October 11, 2018
 **Object Oriented**
 
 * [c++, data science and python tutorials](https://thispointer.com/c-interview-questions/) : Overload new and delete 
+
+
+
+Friday October 12, 2018
+=============================
+
+**FP** 
+
+* Programming in Scala: page 93
+* FP in python : 28
+
+
+Tuesday October 16, 2018
+=============================
+
+
+**FP** 
+
+* Programming in Scala: page 96
