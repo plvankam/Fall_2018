@@ -405,4 +405,16 @@ Tuesday October 16, 2018
 
 **FP** 
 
-* Programming in Scala: page 96
+* Programming in Scala: page 105
+
+**Object Oriented**
+
+* Derek Banas: Templates and iterator
+
+
+Wednesday October 17, 2018
+=============================
+
+**Object Oriented**
+
+* Chapter 7 (pro C++) - page 159
