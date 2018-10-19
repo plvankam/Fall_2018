@@ -390,3 +390,35 @@ Thursday October 11, 2018
 * Learning Qt: self study on site 
 
 
+=======
+
+
+
+Friday October 12, 2018
+=============================
+
+**FP** 
+
+* Programming in Scala: page 93
+* FP in python : 28
+
+
+Tuesday October 16, 2018
+=============================
+
+
+**FP** 
+
+* Programming in Scala: page 105
+
+**Object Oriented**
+
+* Derek Banas: Templates and iterator
+
+
+Wednesday October 17, 2018
+=============================
+
+**Object Oriented**
+
+* Chapter 7 (pro C++) - page 159
