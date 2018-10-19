@@ -418,3 +418,22 @@ Wednesday October 17, 2018
 **Object Oriented**
 
 * Chapter 7 (pro C++) - page 159
+* Derek Banas: smart pointers ... 
+
+
+Thursday October 18, 2018
+=============================
+
+**Object Oriented**
+
+* Chapter 7 (pro C++) - page 169
+
+
+
+Friday October 19, 2018
+=============================
+
+**Object Oriented**
+
+* Chapter 8 (pro C++) 
+* this pointer STL-sort
