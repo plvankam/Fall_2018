@@ -1,0 +1,175 @@
+queue.cpp: In function ‘void showq(std::queue<int>)’:
+queue.cpp:16:13: error: no match for ‘operator<’ (operand types are ‘std::ostream {aka std::basic_ostream<char>}’ and ‘int’)
+   std::cout < '\t' << g.front();
+   ~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+queue.cpp:16:13: note: candidate: operator<(int, int) <built-in>
+queue.cpp:16:13: note:   no known conversion for argument 1 from ‘std::ostream {aka std::basic_ostream<char>}’ to ‘int’
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/queue:64:0,
+                 from queue.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/stl_queue.h:316:5: note: candidate: template<class _Tp, class _Seq> bool std::operator<(const std::queue<_Tp, _Seq>&, const std::queue<_Tp, _Seq>&)
+     operator<(const queue<_Tp, _Seq>& __x, const queue<_Tp, _Seq>& __y)
+     ^~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/stl_queue.h:316:5: note:   template argument deduction/substitution failed:
+queue.cpp:16:31: note:   ‘std::ostream {aka std::basic_ostream<char>}’ is not derived from ‘const std::queue<_Tp, _Seq>’
+   std::cout < '\t' << g.front();
+                               ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/vector:64:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/queue:61,
+                 from queue.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/stl_vector.h:1526:5: note: candidate: template<class _Tp, class _Alloc> bool std::operator<(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+     operator<(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)
+     ^~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/stl_vector.h:1526:5: note:   template argument deduction/substitution failed:
+queue.cpp:16:31: note:   ‘std::ostream {aka std::basic_ostream<char>}’ is not derived from ‘const std::vector<_Tp, _Alloc>’
+   std::cout < '\t' << g.front();
+                               ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/deque:64:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/queue:60,
+                 from queue.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/stl_deque.h:2238:5: note: candidate: template<class _Tp, class _Alloc> bool std::operator<(const std::deque<_Tp, _Alloc>&, const std::deque<_Tp, _Alloc>&)
+     operator<(const deque<_Tp, _Alloc>& __x,
+     ^~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/stl_deque.h:2238:5: note:   template argument deduction/substitution failed:
+queue.cpp:16:31: note:   ‘std::ostream {aka std::basic_ostream<char>}’ is not derived from ‘const std::deque<_Tp, _Alloc>’
+   std::cout < '\t' << g.front();
+                               ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/deque:64:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/queue:60,
+                 from queue.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/stl_deque.h:299:5: note: candidate: template<class _Tp, class _RefL, class _PtrL, class _RefR, class _PtrR> bool std::operator<(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _RefR, _PtrR>&)
+     operator<(const _Deque_iterator<_Tp, _RefL, _PtrL>& __x,
+     ^~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/stl_deque.h:299:5: note:   template argument deduction/substitution failed:
+queue.cpp:16:31: note:   ‘std::ostream {aka std::basic_ostream<char>}’ is not derived from ‘const std::_Deque_iterator<_Tp, _Ref, _Ptr>’
+   std::cout < '\t' << g.front();
+                               ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/deque:64:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/queue:60,
+                 from queue.cpp:9:
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/stl_deque.h:291:5: note: candidate: template<class _Tp, class _Ref, class _Ptr> bool std::operator<(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _Ref, _Ptr>&)
+     operator<(const _Deque_iterator<_Tp, _Ref, _Ptr>& __x,
+     ^~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/stl_deque.h:291:5: note:   template argument deduction/substitution failed:
+queue.cpp:16:31: note:   ‘std::ostream {aka std::basic_ostream<char>}’ is not derived from ‘const std::_Deque_iterator<_Tp, _Ref, _Ptr>’
+   std::cout < '\t' << g.front();
+                               ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/ios_base.h:46:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/iostream:39,
+                 from queue.cpp:8:
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/system_error:274:3: note: candidate: bool std::operator<(const std::error_condition&, const std::error_condition&)
+   operator<(const error_condition& __lhs,
+   ^~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/system_error:274:3: note:   no known conversion for argument 1 from ‘std::ostream {aka std::basic_ostream<char>}’ to ‘const std::error_condition&’
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/system_error:200:3: note: candidate: bool std::operator<(const std::error_code&, const std::error_code&)
+   operator<(const error_code& __lhs, const error_code& __rhs) noexcept
+   ^~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/system_error:200:3: note:   no known conversion for argument 1 from ‘std::ostream {aka std::basic_ostream<char>}’ to ‘const std::error_code&’
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/string:52:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/iostream:39,
+                 from queue.cpp:8:
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/basic_string.h:5175:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator<(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+     operator<(const _CharT* __lhs,
+     ^~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/basic_string.h:5175:5: note:   template argument deduction/substitution failed:
+queue.cpp:16:31: note:   mismatched types ‘const _CharT*’ and ‘std::basic_ostream<char>’
+   std::cout < '\t' << g.front();
+                               ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/string:52:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/iostream:39,
+                 from queue.cpp:8:
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/basic_string.h:5163:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator<(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+     operator<(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/basic_string.h:5163:5: note:   template argument deduction/substitution failed:
+queue.cpp:16:31: note:   ‘std::ostream {aka std::basic_ostream<char>}’ is not derived from ‘const std::basic_string<_CharT, _Traits, _Alloc>’
+   std::cout < '\t' << g.front();
+                               ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/string:52:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/iostream:39,
+                 from queue.cpp:8:
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/basic_string.h:5150:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator<(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+     operator<(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/basic_string.h:5150:5: note:   template argument deduction/substitution failed:
+queue.cpp:16:31: note:   ‘std::ostream {aka std::basic_ostream<char>}’ is not derived from ‘const std::basic_string<_CharT, _Traits, _Alloc>’
+   std::cout < '\t' << g.front();
+                               ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/stl_algobase.h:67:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/char_traits.h:39,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/ios:40,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/iostream:39,
+                 from queue.cpp:8:
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/stl_iterator.h:1143:5: note: candidate: template<class _Iterator> bool std::operator<(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&)
+     operator<(const move_iterator<_Iterator>& __x,
+     ^~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/stl_iterator.h:1143:5: note:   template argument deduction/substitution failed:
+queue.cpp:16:31: note:   ‘std::ostream {aka std::basic_ostream<char>}’ is not derived from ‘const std::move_iterator<_IteratorL>’
+   std::cout < '\t' << g.front();
+                               ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/stl_algobase.h:67:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/char_traits.h:39,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/ios:40,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/iostream:39,
+                 from queue.cpp:8:
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/stl_iterator.h:1137:5: note: candidate: template<class _IteratorL, class _IteratorR> bool std::operator<(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)
+     operator<(const move_iterator<_IteratorL>& __x,
+     ^~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/stl_iterator.h:1137:5: note:   template argument deduction/substitution failed:
+queue.cpp:16:31: note:   ‘std::ostream {aka std::basic_ostream<char>}’ is not derived from ‘const std::move_iterator<_IteratorL>’
+   std::cout < '\t' << g.front();
+                               ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/stl_algobase.h:67:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/char_traits.h:39,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/ios:40,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/iostream:39,
+                 from queue.cpp:8:
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/stl_iterator.h:355:5: note: candidate: template<class _IteratorL, class _IteratorR> bool std::operator<(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)
+     operator<(const reverse_iterator<_IteratorL>& __x,
+     ^~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/stl_iterator.h:355:5: note:   template argument deduction/substitution failed:
+queue.cpp:16:31: note:   ‘std::ostream {aka std::basic_ostream<char>}’ is not derived from ‘const std::reverse_iterator<_Iterator>’
+   std::cout < '\t' << g.front();
+                               ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/stl_algobase.h:67:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/char_traits.h:39,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/ios:40,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/iostream:39,
+                 from queue.cpp:8:
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/stl_iterator.h:298:5: note: candidate: template<class _Iterator> bool std::operator<(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+     operator<(const reverse_iterator<_Iterator>& __x,
+     ^~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/stl_iterator.h:298:5: note:   template argument deduction/substitution failed:
+queue.cpp:16:31: note:   ‘std::ostream {aka std::basic_ostream<char>}’ is not derived from ‘const std::reverse_iterator<_Iterator>’
+   std::cout < '\t' << g.front();
+                               ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/stl_algobase.h:64:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/char_traits.h:39,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/ios:40,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/iostream:39,
+                 from queue.cpp:8:
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/stl_pair.h:441:5: note: candidate: template<class _T1, class _T2> constexpr bool std::operator<(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+     operator<(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+     ^~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/stl_pair.h:441:5: note:   template argument deduction/substitution failed:
+queue.cpp:16:31: note:   ‘std::ostream {aka std::basic_ostream<char>}’ is not derived from ‘const std::pair<_T1, _T2>’
+   std::cout < '\t' << g.front();
+                               ^
