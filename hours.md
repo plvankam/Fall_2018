@@ -443,25 +443,12 @@ Friday October 19, 2018
 * this pointer STL-sort
 
 
-**Week of C++**
+Week of C++ (10/20 - 1028)
+==============================
 
-Brushing up on some stuff
-
-
-Wednesday October 24, 2018
-=============================
-
-**Object Oriented**
-
-* cplusplus.com full C++ tutorial (review) 
+**brushing up on some stuff**
 
 
-Thursday October 25, 2018
-=============================
-
-**Object Oriented**
- 
-* this pointer STL-unique
 
 
 
