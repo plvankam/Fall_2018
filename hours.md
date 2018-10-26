@@ -441,3 +441,27 @@ Friday October 19, 2018
 
 * Chapter 8 (pro C++) 
 * this pointer STL-sort
+
+
+**Week of C++**
+
+Brushing up on some stuff
+
+
+Wednesday October 24, 2018
+=============================
+
+**Object Oriented**
+
+* cplusplus.com full C++ tutorial (review) 
+
+
+Thursday October 25, 2018
+=============================
+
+**Object Oriented**
+ 
+* this pointer STL-unique
+
+
+

@@ -1,0 +1,11 @@
+{
+  "name": "test_app",
+  "version": "1.0.0",
+  "description": "test application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "philip van kampen",
+  "license": "ISC"
+}
