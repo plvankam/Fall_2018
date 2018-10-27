@@ -390,8 +390,6 @@ Thursday October 11, 2018
 * Learning Qt: self study on site 
 
 
-=======
-
 
 
 Friday October 12, 2018
@@ -422,4 +420,28 @@ Wednesday October 17, 2018
 **Object Oriented**
 
 * Chapter 7 (pro C++) - page 159
+* Derek Banas: smart pointers ... 
+
+
+Thursday October 18, 2018
+=============================
+
+**Object Oriented**
+
+* Chapter 7 (pro C++) - page 169
+
+
+
+Friday October 19, 2018
+=============================
+
+**Object Oriented**
+
+* Chapter 8 (pro C++) 
+* this pointer STL-sort
+* Derek Banaas C++: Tutorial Sequence Containers  
+
+
+Saturday October 20, 2018
+=============================
 
