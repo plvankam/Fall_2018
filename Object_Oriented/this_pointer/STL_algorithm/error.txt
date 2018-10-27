@@ -1,0 +1,4 @@
+unique.cpp:3:17: fatal error: unique: No such file or directory
+ #include<unique>
+                 ^
+compilation terminated.
