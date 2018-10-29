@@ -4,6 +4,7 @@
 #include<vector>
 #include<functional>
 
+// class Item
 class Item
 {
 private:
@@ -22,6 +23,8 @@ public:
 };
 
 
+// class Item
+// overload: ==
 bool Item::operator==(const Item& obj2) const
 {
 	// std::string .compare()
