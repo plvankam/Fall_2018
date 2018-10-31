@@ -4,3 +4,6 @@
 [submodule "fp/coursera_scala/coursera-scala-specialization"]
 	path = fp/coursera_scala/coursera-scala-specialization
 	url = https://github.com/xiaoyunyang/coursera-scala-specialization
+[submodule "Data_Structures_and_Algorithms/cpp-cheat-sheet"]
+	path = Data_Structures_and_Algorithms/cpp-cheat-sheet
+	url = https://github.com/gibsjose/cpp-cheat-sheet
