@@ -1,0 +1,22 @@
+file.cpp: In function ‘int main(int, char**)’:
+file.cpp:23:29: error: no matching function for call to ‘std::basic_ostream<char>::basic_ostream(char*&)’
+     std::ostream out(argv[2]);
+                             ^
+In file included from /usr/include/c++/5/istream:39:0,
+                 from /usr/include/c++/5/fstream:38,
+                 from file.cpp:2:
+/usr/include/c++/5/ostream:384:7: note: candidate: std::basic_ostream<_CharT, _Traits>::basic_ostream() [with _CharT = char; _Traits = std::char_traits<char>]
+       basic_ostream()
+       ^
+/usr/include/c++/5/ostream:384:7: note:   candidate expects 0 arguments, 1 provided
+/usr/include/c++/5/ostream:84:7: note: candidate: std::basic_ostream<_CharT, _Traits>::basic_ostream(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]
+       basic_ostream(__streambuf_type* __sb)
+       ^
+/usr/include/c++/5/ostream:84:7: note:   no known conversion for argument 1 from ‘char*’ to ‘std::basic_ostream<char>::__streambuf_type* {aka std::basic_streambuf<char>*}’
+/usr/include/c++/5/ostream:58:11: note: candidate: std::basic_ostream<char>::basic_ostream(const std::basic_ostream<char>&)
+     class basic_ostream : virtual public basic_ios<_CharT, _Traits>
+           ^
+/usr/include/c++/5/ostream:58:11: note:   no known conversion for argument 1 from ‘char*’ to ‘const std::basic_ostream<char>&’
+file.cpp:34:9: error: ‘std::ostream {aka class std::basic_ostream<char>}’ has no member named ‘close’
+     out.close();
+         ^

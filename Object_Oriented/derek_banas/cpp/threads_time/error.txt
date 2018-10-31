@@ -1,0 +1,3 @@
+/tmp/cc9gErp9.o: In function `std::thread::thread<void (&)(unsigned int, unsigned int), unsigned int&, unsigned int&>(void (&)(unsigned int, unsigned int), unsigned int&, unsigned int&)':
+primes.cpp:(.text._ZNSt6threadC2IRFvjjEJRjS3_EEEOT_DpOT0_[_ZNSt6threadC5IRFvjjEJRjS3_EEEOT_DpOT0_]+0xa8): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
