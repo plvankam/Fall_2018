@@ -442,10 +442,13 @@ Friday October 19, 2018
 * Derek Banaas C++: Tutorial Sequence Containers  
 
 
-Week of C++ (10/20 - 1028)
+Week of C++ (10/20 - 11/05)
 ==============================
 
 **brushing up on some stuff**
+
+
+
 
 
 
