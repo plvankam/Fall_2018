@@ -9,10 +9,11 @@ int main()
 	*p1 = 78;
 	std::cout << "p1 = " << *p1 << std::endl;
 
-	// show count
+	// .use_count() 
 	std::cout << "p1 Reference count: " << p1.use_count() << std::endl;
 
 	// make another pointer to int 
+	// p1 as arg to constructor
 	std::shared_ptr<int> p2(p1);
 
 	// shows the reference count 
@@ -26,6 +27,7 @@ int main()
 	p1.reset();
 	std::cout << "p1 Reference Count: " << p1.use_count() << std::endl;
 	std::cout << "p2 Reference Count: " << p2.use_count() << std::endl;
+	// .reset()
 	p1.reset(new int(11));
 	std::cout << "p1 Reference Count: " << p1.use_count() << std::endl;
 	p1 = nullptr;
