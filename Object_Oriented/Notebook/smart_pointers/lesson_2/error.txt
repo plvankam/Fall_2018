@@ -1,0 +1,134 @@
+deleter.cpp: In function ‘int main()’:
+deleter.cpp:19:53: error: no matching function for call to ‘std::shared_ptr<Sample>::shared_ptr(Sample*, <unresolved overloaded function type>)’
+  std::shared_ptr<Sample> p3(new Sample[12], deleter );
+                                                     ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/memory:82:0,
+                 from deleter.cpp:2:
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/shared_ptr.h:327:7: note: candidate: std::shared_ptr<_Tp>::shared_ptr(const std::weak_ptr<_Tp>&, std::nothrow_t) [with _Tp = Sample]
+       shared_ptr(const weak_ptr<_Tp>& __r, std::nothrow_t)
+       ^~~~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/shared_ptr.h:327:7: note:   no known conversion for argument 1 from ‘Sample*’ to ‘const std::weak_ptr<Sample>&’
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/shared_ptr.h:317:2: note: candidate: template<class _Alloc, class ... _Args> std::shared_ptr<_Tp>::shared_ptr(std::_Sp_make_shared_tag, const _Alloc&, _Args&& ...)
+  shared_ptr(_Sp_make_shared_tag __tag, const _Alloc& __a,
+  ^~~~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/shared_ptr.h:317:2: note:   template argument deduction/substitution failed:
+deleter.cpp:19:53: note:   couldn't deduce template parameter ‘_Alloc’
+  std::shared_ptr<Sample> p3(new Sample[12], deleter );
+                                                     ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/memory:82:0,
+                 from deleter.cpp:2:
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/shared_ptr.h:269:17: note: candidate: constexpr std::shared_ptr<_Tp>::shared_ptr(std::nullptr_t) [with _Tp = Sample; std::nullptr_t = std::nullptr_t]
+       constexpr shared_ptr(nullptr_t) noexcept : shared_ptr() { }
+                 ^~~~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/shared_ptr.h:269:17: note:   candidate expects 1 argument, 2 provided
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/shared_ptr.h:262:2: note: candidate: template<class _Tp1, class _Del, class> std::shared_ptr<_Tp>::shared_ptr(std::unique_ptr<_Up, _Ep>&&)
+  shared_ptr(std::unique_ptr<_Tp1, _Del>&& __r)
+  ^~~~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/shared_ptr.h:262:2: note:   template argument deduction/substitution failed:
+deleter.cpp:19:53: note:   mismatched types ‘std::unique_ptr<_Tp, _Dp>’ and ‘Sample*’
+  std::shared_ptr<Sample> p3(new Sample[12], deleter );
+                                                     ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/memory:82:0,
+                 from deleter.cpp:2:
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/shared_ptr.h:255:2: note: candidate: template<class _Tp1> std::shared_ptr<_Tp>::shared_ptr(std::auto_ptr<_Up>&&)
+  shared_ptr(std::auto_ptr<_Tp1>&& __r);
+  ^~~~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/shared_ptr.h:255:2: note:   template argument deduction/substitution failed:
+deleter.cpp:19:53: note:   mismatched types ‘std::auto_ptr<_Up>’ and ‘Sample*’
+  std::shared_ptr<Sample> p3(new Sample[12], deleter );
+                                                     ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/memory:82:0,
+                 from deleter.cpp:2:
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/shared_ptr.h:250:11: note: candidate: template<class _Tp1> std::shared_ptr<_Tp>::shared_ptr(const std::weak_ptr<_Tp1>&)
+  explicit shared_ptr(const weak_ptr<_Tp1>& __r)
+           ^~~~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/shared_ptr.h:250:11: note:   template argument deduction/substitution failed:
+deleter.cpp:19:53: note:   mismatched types ‘const std::weak_ptr<_Tp>’ and ‘Sample*’
+  std::shared_ptr<Sample> p3(new Sample[12], deleter );
+                                                     ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/memory:82:0,
+                 from deleter.cpp:2:
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/shared_ptr.h:238:2: note: candidate: template<class _Tp1, class> std::shared_ptr<_Tp>::shared_ptr(std::shared_ptr<_Tp1>&&)
+  shared_ptr(shared_ptr<_Tp1>&& __r) noexcept
+  ^~~~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/shared_ptr.h:238:2: note:   template argument deduction/substitution failed:
+deleter.cpp:19:53: note:   mismatched types ‘std::shared_ptr<_Tp1>’ and ‘Sample*’
+  std::shared_ptr<Sample> p3(new Sample[12], deleter );
+                                                     ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/memory:82:0,
+                 from deleter.cpp:2:
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/shared_ptr.h:229:7: note: candidate: std::shared_ptr<_Tp>::shared_ptr(std::shared_ptr<_Tp>&&) [with _Tp = Sample]
+       shared_ptr(shared_ptr&& __r) noexcept
+       ^~~~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/shared_ptr.h:229:7: note:   candidate expects 1 argument, 2 provided
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/shared_ptr.h:221:2: note: candidate: template<class _Tp1, class> std::shared_ptr<_Tp>::shared_ptr(const std::shared_ptr<_Tp1>&)
+  shared_ptr(const shared_ptr<_Tp1>& __r) noexcept
+  ^~~~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/shared_ptr.h:221:2: note:   template argument deduction/substitution failed:
+deleter.cpp:19:53: note:   mismatched types ‘const std::shared_ptr<_Tp1>’ and ‘Sample*’
+  std::shared_ptr<Sample> p3(new Sample[12], deleter );
+                                                     ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/memory:82:0,
+                 from deleter.cpp:2:
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/shared_ptr.h:210:2: note: candidate: template<class _Tp1> std::shared_ptr<_Tp>::shared_ptr(const std::shared_ptr<_Tp1>&, _Tp*)
+  shared_ptr(const shared_ptr<_Tp1>& __r, _Tp* __p) noexcept
+  ^~~~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/shared_ptr.h:210:2: note:   template argument deduction/substitution failed:
+deleter.cpp:19:53: note:   mismatched types ‘const std::shared_ptr<_Tp1>’ and ‘Sample*’
+  std::shared_ptr<Sample> p3(new Sample[12], deleter );
+                                                     ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/memory:82:0,
+                 from deleter.cpp:2:
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/shared_ptr.h:188:2: note: candidate: template<class _Deleter, class _Alloc> std::shared_ptr<_Tp>::shared_ptr(std::nullptr_t, _Deleter, _Alloc)
+  shared_ptr(nullptr_t __p, _Deleter __d, _Alloc __a)
+  ^~~~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/shared_ptr.h:188:2: note:   template argument deduction/substitution failed:
+deleter.cpp:19:53: note:   candidate expects 3 arguments, 2 provided
+  std::shared_ptr<Sample> p3(new Sample[12], deleter );
+                                                     ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/memory:82:0,
+                 from deleter.cpp:2:
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/shared_ptr.h:169:2: note: candidate: template<class _Tp1, class _Deleter, class _Alloc> std::shared_ptr<_Tp>::shared_ptr(_Tp1*, _Deleter, _Alloc)
+  shared_ptr(_Tp1* __p, _Deleter __d, _Alloc __a)
+  ^~~~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/shared_ptr.h:169:2: note:   template argument deduction/substitution failed:
+deleter.cpp:19:53: note:   candidate expects 3 arguments, 2 provided
+  std::shared_ptr<Sample> p3(new Sample[12], deleter );
+                                                     ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/memory:82:0,
+                 from deleter.cpp:2:
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/shared_ptr.h:150:2: note: candidate: template<class _Deleter> std::shared_ptr<_Tp>::shared_ptr(std::nullptr_t, _Deleter)
+  shared_ptr(nullptr_t __p, _Deleter __d)
+  ^~~~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/shared_ptr.h:150:2: note:   template argument deduction/substitution failed:
+deleter.cpp:19:53: note:   couldn't deduce template parameter ‘_Deleter’
+  std::shared_ptr<Sample> p3(new Sample[12], deleter );
+                                                     ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/memory:82:0,
+                 from deleter.cpp:2:
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/shared_ptr.h:133:2: note: candidate: template<class _Tp1, class _Deleter> std::shared_ptr<_Tp>::shared_ptr(_Tp1*, _Deleter)
+  shared_ptr(_Tp1* __p, _Deleter __d)
+  ^~~~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/shared_ptr.h:133:2: note:   template argument deduction/substitution failed:
+deleter.cpp:19:53: note:   couldn't deduce template parameter ‘_Deleter’
+  std::shared_ptr<Sample> p3(new Sample[12], deleter );
+                                                     ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/memory:82:0,
+                 from deleter.cpp:2:
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/shared_ptr.h:116:11: note: candidate: template<class _Tp1> std::shared_ptr<_Tp>::shared_ptr(_Tp1*)
+  explicit shared_ptr(_Tp1* __p)
+           ^~~~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/shared_ptr.h:116:11: note:   template argument deduction/substitution failed:
+deleter.cpp:19:53: note:   candidate expects 1 argument, 2 provided
+  std::shared_ptr<Sample> p3(new Sample[12], deleter );
+                                                     ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/memory:82:0,
+                 from deleter.cpp:2:
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/shared_ptr.h:107:7: note: candidate: std::shared_ptr<_Tp>::shared_ptr(const std::shared_ptr<_Tp>&) [with _Tp = Sample]
+       shared_ptr(const shared_ptr&) noexcept = default;
+       ^~~~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/shared_ptr.h:107:7: note:   candidate expects 1 argument, 2 provided
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/shared_ptr.h:104:17: note: candidate: constexpr std::shared_ptr<_Tp>::shared_ptr() [with _Tp = Sample]
+       constexpr shared_ptr() noexcept
+                 ^~~~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/shared_ptr.h:104:17: note:   candidate expects 0 arguments, 2 provided
