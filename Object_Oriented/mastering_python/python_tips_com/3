@@ -1,0 +1,19 @@
+
+# Map    --> map(func_to_apply, list_of_inputs)
+# Filter --> filter(func_to_apply, list_of_inputs)
+# Reduce --> applies rolling computation to sequential pairs
+#            reduct(func_to_apply, list)
+
+items = []
+for i in range(1,11):
+    items.append(i)
+
+
+squared = map(lambda x: x**2, items)
+print(squared)
+
+lt_zero = list(filter(lambda x: x < 0, items))
+print(lt_zero)
+
+sum_list = list(reduce(lambda x,y: x + y, items))
+print(lt_zero)
